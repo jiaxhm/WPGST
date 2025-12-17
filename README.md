@@ -1,7 +1,5 @@
 # WPGST: Wavelet Pooling Group Swin Transformer For Superpixel Segmentation
 
-Our paper “WPGST: Wavelet Pooling Group Swin Transformer For Superpixel Segmentation” has been submitted to the International Conference on Acoustics, Speech, and Signal Processing 2026 (ICASSP 2026).
-
 Convolutional neural networks (CNNs) are widely used in su
 perpixel segmentation. However, conventional CNNs mainly
  rely on local convolution and pooling operations, which lim
