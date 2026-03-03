@@ -4,3 +4,59 @@ Convolutional neural networks (CNNs) are widely used in superpixel segmentation.
 
 <img width="3358" height="2225" alt="Fig1" src="https://github.com/user-attachments/assets/4fdcfba7-8394-4ee9-8a7a-a6a942dd26b8" />
 The overall architecture of WPGST comprises three key strategies: (1) group Swin Transformer with random convolution for efficiently capturing both local and global feature dependencies; (2) wavelet pooling for significantly preserving the main information; and (3) superpixel boundary-wise loss for stably enhancing grid regularity.
+
+
+# ✨ Getting Start
+
+# Environment Installation
+
+Reference to Swin-Transformer (https://github.com/microsoft/Swin-Transformer) and SCN (https://github.com/fuy34/superpixel_fcn)
+
+# Preparing Dataset
+1. BSDS500: Following this link: https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
+2. NYUDv2: Following this link: http://vcl.ucsd.edu/hed/nyu/
+3. KITTI: Following this link: http://www.cvlibs.net/datasets/kitti/
+4. DRIVE: Following this link: https://drive.grand-challenge.org/
+
+Furthermore, Preprocessing of BSDS500 training data Following SCN (https://github.com/fuy34/superpixel_fcn)
+
+# Training
+    Run `python main.py` to start the program.
+
+   ✨ It's worth mentioning that WPGST is trained exclusively on the BSDS500 training set and directly generates superpixels for NYUv2, KITTI, and DRIVE without requiring fine-tuning.
+
+# Testing
+1. Test BSDS500: Please run `run_infer_bsds.py`
+2. Test NYUDv2: Please run `run_infer_nyu.py`
+3. Test KITTI: Please run `run_infer_kitti.py`
+4. Test DRIVE: Please run `run_infer_drive.py`
+
+# Weights
+We have placed each of the three weights (VMamba, Global Modeling, and Local Modeling) in the https://pan.baidu.com/s/1f0BU5w4NP0TI_iecK3Zr1g password: 94y8
+
+# Result
+
+We tested the ASA, BR-BP, CO, and UE metrics (refer: https://doi.org/10.1016/j.cviu.2017.03.007) on the four datasets and their CSV results are in the https://pan.baidu.com/s/1f0BU5w4NP0TI_iecK3Zr1g password: 94y8
+
+And, to facilitate the comparison of other good work with our approach, we also publish eval files for four datasets in the `./eval_result`
+
+# Acknowledgments
+
+The basic code is partially from the below repos.
+1. Swin-Transformer (https://github.com/microsoft/Swin-Transformer)
+2. SCN (https://github.com/fuy34/superpixel_fcn)
+
+# 📚 Cite Us 
+
+✨ Please cite us if this work is helpful to you 
+
+```bibtex
+@ARTICLE{
+  author={Xiaohong Jia, Yonghui Li, Jianjun Jiao, Yao Zhao, and Zhiwei Xia.},
+  journal={IEEE Signal Processing Letters}, 
+  title={SSMamba: Superpixel Segmentation With Mamba}, 
+  year={2025},
+  volume={32},
+  pages={1715-1719},
+  keywords={Convolutional neural network; Mamba; Superpixel segmentation},
+  doi={10.1109/LSP.2025.3559425}}
