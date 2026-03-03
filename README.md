@@ -52,11 +52,11 @@ The basic code is partially from the below repos.
 
 ```bibtex
 @ARTICLE{
-  author={Xiaohong Jia, Yonghui Li, Jianjun Jiao, Yao Zhao, and Zhiwei Xia.},
-  journal={IEEE Signal Processing Letters}, 
-  title={SSMamba: Superpixel Segmentation With Mamba}, 
-  year={2025},
-  volume={32},
-  pages={1715-1719},
-  keywords={Convolutional neural network; Mamba; Superpixel segmentation},
-  doi={10.1109/LSP.2025.3559425}}
+  author={Xiaohong Jia, Yonghui Li, Xiaomei Guo, Yao Zhao, Guanghui Yan, and Zhengwen Huang},
+  journal={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={WPGST: Wavelet Pooling Group Swin Transformer For Superpixel Segmentation}, 
+  year={2026},
+  volume={},
+  pages={},
+  keywords={Group Swin Transformer; Wavelet Pooling; Superpixel Segmentation},
+  doi={}}
