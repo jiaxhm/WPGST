@@ -32,13 +32,8 @@ Furthermore, Preprocessing of BSDS500 training data Following SCN (https://githu
 4. Test DRIVE: Please run `run_infer_drive.py`
 
 # Weights
-We have placed each of the three weights (VMamba, Global Modeling, and Local Modeling) in the https://pan.baidu.com/s/1f0BU5w4NP0TI_iecK3Zr1g password: 94y8
+We have placed each of the three weights in the -- password: --
 
-# Result
-
-We tested the ASA, BR-BP, CO, and UE metrics (refer: https://doi.org/10.1016/j.cviu.2017.03.007) on the four datasets and their CSV results are in the https://pan.baidu.com/s/1f0BU5w4NP0TI_iecK3Zr1g password: 94y8
-
-And, to facilitate the comparison of other good work with our approach, we also publish eval files for four datasets in the `./eval_result`
 
 # Acknowledgments
 
