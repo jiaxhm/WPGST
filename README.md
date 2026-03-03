@@ -32,7 +32,7 @@ Furthermore, Preprocessing of BSDS500 training data Following SCN (https://githu
 4. Test DRIVE: Please run `run_infer_drive.py`
 
 # Weights
-We have placed each of the three weights in the -- password: --
+We have placed each of the three weights in the https://pan.baidu.com/s/1XLhxYGK5pVniRc-jxWqj6Q?pwd=217n password: 217n
 
 
 # Acknowledgments
